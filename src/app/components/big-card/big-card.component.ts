@@ -12,6 +12,8 @@ export class BigCardComponent implements OnInit {
   cardTitle: string="NOVO HOMEM DE FERRO ANUNCIADO"
   @Input()
   cardDescription: string ="Marvel Studios anuncia novo filme do homem de Ferro!"
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
